@@ -3,19 +3,19 @@
 ## Related Link
 https://sharkcoder.com/tools/vuejs
 
-### VueJs Setting
+## VueJs Setting
 
-#### Install Node.js
+### Install Node.js
 ```
 npm install nodejs
 ```
 
-#### Install Vue CLI
+### Install Vue CLI
 ```
 npm i -g @vue/cli @vue/cli-service-global
 ```
 
-#### Choose features for your project
+### Choose features for your project
 ```
 Vue CLI v4.5.4
 ? Please pick a preset:
@@ -24,9 +24,10 @@ Vue CLI v4.5.4
   Manually select features
 ```
 
-#### Use vue create
+### Use vue create
+```
 vue create {@Project_Name}
-
+```
 
 ## Project setup
 ```
@@ -48,5 +49,5 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
+## Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
