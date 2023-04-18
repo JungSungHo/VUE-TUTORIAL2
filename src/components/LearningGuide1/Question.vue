@@ -7,6 +7,7 @@
         :key="index"
         :class="choosenAnswer ? (answer.isCorrect || false ? 'green' : 'red') : ''"
       >
+      <p>{{ index + ", " + (choosenAnswer ? 1 : 0) + "," + answer.text + ", " + answer.isCorrect}}</p>
         <a href="#" @click="getAnswer(answer)">{{ answer.text }}</a>
       </li>
     </ol>
